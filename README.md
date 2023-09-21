@@ -5,7 +5,9 @@ React/Tailwind/Nextjs/PostgreSQL
 ![Screenshot 2023-09-20 220357](https://github.com/japeotter21/Musician-Portfolio/assets/97000604/66b43eb8-4ba7-43b6-9dab-6084e8251c5a)
 
 To-Do:
-- Email List signup
-- Email service
-- Update links
-- Store functionality
+<ul>
+  <p>- Email List signup</p>
+  <p>- Email service</p>
+  <p>✅ Update links</p>
+  <p>- Store functionality</p>
+</ul>
