@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        flipCard: {
+          '0%': {  },
+          '100%': { transform: 'rotateY(180deg) scale(-1,1)' },
+        }
+      },
+      animation: {
+        flipCard: 'flipCard 0.5s ease-in-out'
+      }
     },
   },
   plugins: [],
