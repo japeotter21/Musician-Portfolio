@@ -26,10 +26,10 @@ export default function Navbar({page}) {
                 </div>
             </div>
             <div className='flex gap-4 ml-auto block mr-0'>
-                <button className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiYoutube size={20} /></button>
-                <button className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiTiktok size={20} /></button>
-                <button className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiInstagram size={20} /></button>
-                <button className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiPatreon size={20} /></button>
+                <Link href="https://www.youtube.com/channel/UCKzFivbVW4htLbnCP234VsQ" target='blank' className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiYoutube size={20} /></Link>
+                <Link href="https://www.tiktok.com/@tatsuyoshiguitar" target='blank' className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiTiktok size={20} /></Link>
+                {/* <Link href="" target='blank' className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiInstagram size={20} /></Link> */}
+                <Link href="https://www.patreon.com/tatsuyoshi" target='blank' className='rounded-full hover:text-amber-300 transition duration-500 hover:scale-105'><SiPatreon size={20} /></Link>
             </div>
         </div>
     )
