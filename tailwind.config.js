@@ -16,10 +16,15 @@ module.exports = {
         flipCard: {
           '0%': {  },
           '100%': { transform: 'rotateY(180deg) scale(-1,1)' },
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%':  { opacity: 1 }
         }
       },
       animation: {
-        flipCard: 'flipCard 0.5s ease-in-out'
+        flipCard: 'flipCard 0.5s ease-in-out',
+        fadeIn: 'fadeIn 0.5s ease-in-out'
       }
     },
   },
